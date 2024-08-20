@@ -814,6 +814,9 @@ Banner 6
   padding-right: 40px;
 }
 
+.banner-img > img {
+  width: 65%;
+}
 .banner-img3 {
   position: relative;
 }
