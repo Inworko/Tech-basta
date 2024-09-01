@@ -1,3 +1,35 @@
+.nav {
+  display: none;
+  justify-content: center;
+  gap: 20px;
+  padding:10px 0;
+  margin: 0;
+  background-color: #b9f4ee;
+  font-size: 1.1rem;
+}
+.nav > li {
+  width:100px;
+  text-align: center;
+  padding:5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #31572c;
+  transition: 0.4s all;
+}
+.nav > li > a {
+  color: #31572c;
+}
+.nav > li:hover {
+  transform: scale(1.1);
+  background-color: #51e3d4;
+  color: white;
+  border: none;
+}
+
+.nav > li:hover > a {
+  color: white;
+}
+
 @media (min-width: 992px) and (max-width: 1400px) {
   .container-padding {
     padding: 0px 30px;
@@ -96,7 +128,7 @@
     left: 50%;
     margin-bottom: 32px;
     -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    transform: translateY(30px);
   }
   .course-list-item {
     display: block;
@@ -123,13 +155,15 @@
   .about-content {
     margin-bottom: 35px;
   }
-  .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+  .woocommerce ul.products[class*="columns-"] li.product,
+  .woocommerce-page ul.products[class*="columns-"] li.product {
     width: 48%;
     float: left;
     clear: both;
     margin: 0 0 2.992em;
   }
-  .woocommerce ul.products[class*=columns-] li.product:nth-child(2n), .woocommerce-page ul.products[class*=columns-] li.product:nth-child(2n) {
+  .woocommerce ul.products[class*="columns-"] li.product:nth-child(2n),
+  .woocommerce-page ul.products[class*="columns-"] li.product:nth-child(2n) {
     float: right;
     clear: none !important;
   }
@@ -148,7 +182,7 @@
   }
   .nav-tp {
     margin-bottom: 0px;
-    background: #263B5E;
+    background: #263b5e;
   }
   .navbar-toggler {
     background: #fff;
@@ -159,8 +193,8 @@
   }
   .single-course-details .course-info ul {
     -webkit-column-count: 1;
-       -moz-column-count: 1;
-            column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
   }
   .course-block {
     margin-bottom: 30px;
@@ -197,7 +231,8 @@
     font-size: 40px;
     line-height: 60px;
   }
-  .header-contact li, .header-socials li {
+  .header-contact li,
+  .header-socials li {
     float: none;
     text-align: center;
   }
@@ -235,7 +270,7 @@
     left: 50%;
     margin-bottom: 32px;
     -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    transform: translateY(30px);
   }
   .recent-posts li {
     display: flex;
@@ -248,7 +283,7 @@
   }
   .nav-tp {
     margin-bottom: 0px;
-    background: #263B5E;
+    background: #263b5e;
   }
   .navbar-toggler {
     background: #fff;
@@ -310,7 +345,8 @@
   .navbar-nav .nav-link {
     padding: 14px 20px;
   }
-  .header-contact li, .header-socials li {
+  .header-contact li,
+  .header-socials li {
     float: none;
     text-align: center;
   }
@@ -386,9 +422,10 @@
     left: 50%;
     margin-bottom: 32px;
     -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    transform: translateY(30px);
   }
-  .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+  .woocommerce ul.products[class*="columns-"] li.product,
+  .woocommerce-page ul.products[class*="columns-"] li.product {
     width: 100%;
   }
   .banner-6 .banner-content h1 {
